@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #E8E9EB;
+}
+
+body {
+    font-family: "Arial";
+    padding: 20px;
+}
+
+button {
+    height: 40px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #E8E9EB;
+    /* border-width: 2px;
+    border-color: lightgray; */
+    border: 1px solid gray;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: white;
+}
+
+.imgLarge {
+    width: 165px;
+    height: 150px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 670px 250px;
+    column-gap: 20px;
+    background-color: white;
+    padding: 20px 20px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#available-list {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    column-gap: 30px;
+    background-color: white;
+}
+
+#orders {
+    margin-top: 40px;
+    background-color: white;
+}
+
+#orders p {
+    margin-top: 0px;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.donut {
+    border: 1px solid grey;
+    padding: 15px 40px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top: 20px;
+    background-color: white;
+    border-color: lightgray;
+}
